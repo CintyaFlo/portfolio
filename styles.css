@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  font-size: 62.5%;
+}
+nav {
+  margin: 0;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(#e80c43, #000000);
+  box-shadow: 2px 2px 8px var(#e80c43);
+  height: 8%;
+  align-items: center;
+  justify-content: center;
+}
+nav a {
+  margin: 0;
+  padding: 0 15px 5px 15px;
+  display: flex;
+  text-decoration: none;
+  color: rgb(242, 242, 248);
+  text-shadow: 2px 2px #f33cad8d;
+  font-size: 1.2rem;
+}
+main {
+  text-align: justify;
+}
+#welcome-section {
+  padding: 40px 0;
+  width: 100vw;
+  height: 100vh;
+  color: azure;
+  background-image: url("https://i0.wp.com/pixahive.com/wp-content/uploads/2020/09/Hack-to-unlock-67292-pixahive.jpg?fit=1560%2C1040&ssl=1\ Group\ 21.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#welcome-image {
+  width: 90%;
+}
+.welcome-text {
+  text-shadow: 1px 4px 2px rgb(237 16 74);
+  margin-top: 30px;
+}
+
+h1.welcome-text {
+  font-size: 2rem;
+}
+
+p.welcome-text {
+  font-size: 1.4rem;
+}
