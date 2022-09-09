@@ -16,25 +16,25 @@
     content="Welcome to my portfolio. I'm Roberto, an Italian Fullstack developer and code mentor. In this space I share my professional achievements and showcase my skills">
 
 <body>
+    <nav id="navbar" class="nav">
+        <ul>
+            <li>
+                <a href="#welcome-section">Home</a>
+            </li>
+            <li>
+                <a href="#about-me">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+
+            </li>
+        </ul>
+    </nav>
+
     <main>
-        <nav id="navbar" class="nav">
-            <ul>
-                <li>
-                    <a href="#welcome-section">Home</a>
-                </li>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-
-                </li>
-            </ul>
-        </nav>
-
         <section id="welcome-section">
 
             <img src="/autumn leaf.png" alt="Cintya's emoji" width="500">
@@ -52,7 +52,7 @@
 
             </div>
         </section>
-        <section id="portfolio">
+        <section id="projects">
             <div>
                 <h2>Projects</h2>
                 <p>Here you can follow some of the projects that I completed during my study process.</p>
@@ -121,14 +121,32 @@
                     </a>
 
                 </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-header">
+                <h2>Let's work together...</h2>
+                <p>How do you take your coffee?</p>
+            </div>
+            <div class="contact-links">
+                <a href="https://www.facebook.com/Tyatares" target="_blank" class="btn contact-details"><i
+                        class="fab fa-facebook-square"></i> Facebook</a>
 
+                <a href="https://github.com/CintyaFlo" target="_blank" class="btn contact-details"><i
+                        class="fab fa-github"></i> Github</a>
+
+                <a href="mailto:flores.cd@gmail.com" target="_blank" class="btn contact-details"><i
+                        class="fab fa-at"></i>Send a mail</a>
 
             </div>
+
         </section>
 
     </main>
-
-    <script src="" async defer></script>
+    <footer>
+        <article>This portfolio was made for Free Code Camp's Responsive Web Design Certification</article>
+        <p>Created by CintyaFlo</p>
+    </footer>
 </body>
 
 </html>
