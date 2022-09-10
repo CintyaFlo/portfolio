@@ -85,11 +85,20 @@ h2.section-title {
 .welcome-text {
   font-size: 1.4rem;
 }
-#projects {
+.projects-container {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 15px;
 }
 .project-image {
-  width: 225px;
-  height: 200px;
+  width: 150px;
+  height: 120px;
+  background-size: cover;
+}
+.project-tile {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
