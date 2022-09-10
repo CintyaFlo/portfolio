@@ -43,9 +43,24 @@ main {
 .section-display {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  min-height: 92vh;
+  min-height: 100vh;
+  gap: 10px;
+}
+.display-text {
+  padding: 0 25px 0 25px;
+  font-size: 1.2rem;
+}
+#laptop-image {
+  width: 60%;
+  margin-bottom: 15px;
+  align-self: center;
+}
+.justify {
+  text-align: justify;
+}
+.right {
+  text-align: right;
 }
 
 #welcome-image {
@@ -54,12 +69,27 @@ main {
 .welcome-text {
   text-shadow: 1px 4px 2px rgb(237 16 74);
   margin-top: 30px;
+  align-self: center;
+  display: flex;
 }
 
-h1.welcome-text {
+.section-title {
   font-size: 2rem;
+  text-shadow: 1px 4px 2px rgb(237 16 74);
+  margin-top: 30px;
+  align-self: center;
 }
-
-p.welcome-text {
+h2.section-title {
+  margin-top: 15%;
+}
+.welcome-text {
   font-size: 1.4rem;
+}
+#projects {
+  display: flex;
+  align-items: center;
+}
+.project-image {
+  width: 225px;
+  height: 200px;
 }
