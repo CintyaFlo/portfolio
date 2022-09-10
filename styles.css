@@ -2,6 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  color: #222;
+}
+a:visited {
+  color: rgb(49, 6, 18);
 }
 
 body {
@@ -20,7 +25,8 @@ nav {
   align-items: center;
   justify-content: center;
 }
-nav a {
+nav a,
+nav a:visited {
   margin: 0;
   padding: 0 15px 5px 15px;
   display: flex;
@@ -36,10 +42,11 @@ main {
   padding: 40px 0;
   width: 100vw;
   height: 100vh;
-  color: azure;
   background-image: url("https://i0.wp.com/pixahive.com/wp-content/uploads/2020/09/Hack-to-unlock-67292-pixahive.jpg?fit=1560%2C1040&ssl=1\ Group\ 21.png");
 }
-
+#welcome-section * {
+  color: azure;
+}
 .section-display {
   display: flex;
   flex-direction: column;
@@ -95,10 +102,14 @@ h2.section-title {
   width: 150px;
   height: 120px;
   background-size: cover;
+  box-shadow: 0px 0px 22px rgb(237 16 74);
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .project-tile {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1rem;
 }
