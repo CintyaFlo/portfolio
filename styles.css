@@ -171,3 +171,159 @@ h2.section-title {
 .display-text .footer {
   border-top: 5px solid #004d7a;
 }
+
+@media only screen and (min-width: 768px) {
+  nav {
+    justify-content: end;
+  }
+  nav a,
+  nav a:visited {
+    font-size: 1.8rem;
+  }
+  #welcome-image {
+    width: 60%;
+  }
+  .display-text {
+    padding: 0 25px 0 25px;
+    font-size: 1.8rem;
+  }
+  #laptop-image {
+    width: 40%;
+    margin-bottom: 45px;
+  }
+  h2.section-title {
+    margin: 58px 0 10px 0;
+    height: 100px;
+    font-size: 3rem;
+  }
+  .projects-container {
+    padding: 40px 20px 25px 20px;
+    gap: 30px;
+  }
+
+  .project-tile {
+    font-size: 1.3rem;
+  }
+  .section-contact {
+    height: 450px;
+  }
+  .contact-links {
+    font-size: 2.3rem;
+  }
+  p.footer {
+    margin-top: 40px;
+    font-size: 1.2rem;
+    color: #00bf72;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    justify-content: end;
+    padding-right: 20px;
+  }
+  nav a,
+  nav a:visited {
+    font-size: 2.8rem;
+  }
+  #welcome-image {
+    width: 60%;
+  }
+  .welcome-text {
+    font-size: 3rem;
+  }
+  .section-title {
+    font-size: 4rem;
+  }
+  .display-text {
+    padding: 10px 25px 0 25px;
+    font-size: 3rem;
+  }
+  #laptop-image {
+    width: 45%;
+    margin-bottom: 60px;
+  }
+  h2.section-title {
+    margin: 58px 0 10px 0;
+    height: 100px;
+    font-size: 4.5rem;
+  }
+  .projects-container {
+    padding: 40px 30px 25px 30px;
+    gap: 40px;
+  }
+  .project-image {
+    width: 280px;
+    height: 200px;
+  }
+  .project-tile {
+    font-size: 2rem;
+  }
+  .section-contact {
+    height: 600px;
+  }
+  .contact-links {
+    font-size: 3rem;
+  }
+  p.footer {
+    margin-top: 50px;
+    font-size: 1.8rem;
+    color: #00bf72;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  nav {
+    justify-content: end;
+    padding-right: 20px;
+  }
+  nav a,
+  nav a:visited {
+    font-size: 3.8rem;
+  }
+  #welcome-image {
+    width: 80%;
+  }
+  .welcome-text {
+    font-size: 3rem;
+  }
+  .section-title {
+    font-size: 4rem;
+  }
+  .display-text {
+    padding: 10px 25px 0 25px;
+    font-size: 4rem;
+  }
+  #laptop-image {
+    width: 50%;
+    margin-bottom: 60px;
+    box-shadow: 9px 9px 12px var(--color-text-navbar);
+  }
+  h2.section-title {
+    margin: 58px 0 90px 0;
+    height: 100px;
+    font-size: 5.5rem;
+  }
+  .projects-container {
+    padding: 40px 30px 25px 30px;
+    gap: 50px;
+  }
+  .project-image {
+    width: 400px;
+    height: 270px;
+    box-shadow: 9px 9px 12px var(--color-text-navbar);
+  }
+  .project-tile {
+    font-size: 3rem;
+  }
+  .section-contact {
+    height: 750px;
+  }
+  .contact-links {
+    font-size: 4.5rem;
+  }
+  p.footer {
+    margin-top: 50px;
+    font-size: 2.2rem;
+    color: #00bf72;
+  }
+}
