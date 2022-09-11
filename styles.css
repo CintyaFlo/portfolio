@@ -178,7 +178,7 @@ h2.section-title {
   }
   nav a,
   nav a:visited {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
   #welcome-section {
     display: grid;
@@ -187,18 +187,18 @@ h2.section-title {
     justify-items: flex-start;
   }
   #welcome-image {
-    width: 100%;
+    width: 110%;
     margin-left: 30%;
     grid-row: 1 / -1;
   }
   #welcome-section h1 {
     align-self: end;
     text-align: left;
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
   #welcome-section p {
     align-self: start;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .display-text {
     padding: 0 25px 0 25px;
@@ -241,7 +241,7 @@ h2.section-title {
   }
   nav a,
   nav a:visited {
-    font-size: 2.8rem;
+    font-size: 2rem;
   }
   .welcome-text {
     font-size: 3rem;
@@ -251,10 +251,10 @@ h2.section-title {
   }
   .display-text {
     padding: 10px 25px 0 25px;
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
   #laptop-image {
-    width: 45%;
+    width: 40%;
     margin-bottom: 60px;
   }
   h2.section-title {
@@ -280,7 +280,7 @@ h2.section-title {
     font-size: 3rem;
   }
   p.footer {
-    margin-top: 50px;
+    margin-top: 90px;
     font-size: 1.8rem;
     color: #00bf72;
   }
