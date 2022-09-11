@@ -180,8 +180,25 @@ h2.section-title {
   nav a:visited {
     font-size: 1.8rem;
   }
+  #welcome-section {
+    display: grid;
+    grid-template: 50% 50% / minmax(50%, 600px) minmax(50%, 600px);
+    align-items: center;
+    justify-items: flex-start;
+  }
   #welcome-image {
-    width: 60%;
+    width: 100%;
+    margin-left: 30%;
+    grid-row: 1 / -1;
+  }
+  #welcome-section h1 {
+    align-self: end;
+    text-align: left;
+    font-size: 3rem;
+  }
+  #welcome-section p {
+    align-self: start;
+    font-size: 2.5rem;
   }
   .display-text {
     padding: 0 25px 0 25px;
@@ -225,9 +242,6 @@ h2.section-title {
   nav a,
   nav a:visited {
     font-size: 2.8rem;
-  }
-  #welcome-image {
-    width: 60%;
   }
   .welcome-text {
     font-size: 3rem;
@@ -280,9 +294,7 @@ h2.section-title {
   nav a:visited {
     font-size: 3.8rem;
   }
-  #welcome-image {
-    width: 80%;
-  }
+
   .welcome-text {
     font-size: 3rem;
   }
