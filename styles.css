@@ -54,6 +54,7 @@ nav a:visited {
 }
 main {
   text-align: justify;
+  overflow: hidden;
 }
 #welcome-section {
   padding: 40px 0;
@@ -185,6 +186,7 @@ h2.section-title {
     grid-template: 50% 50% / minmax(50%, 600px) minmax(50%, 600px);
     align-items: center;
     justify-items: flex-start;
+    gap: 0;
   }
   #welcome-image {
     width: 110%;
@@ -292,7 +294,7 @@ h2.section-title {
   }
   nav a,
   nav a:visited {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   #welcome-section h1 {
     font-size: 4rem;
